@@ -49,7 +49,9 @@ nav ul li ::after{
 nav ul li :hover::after{
     transform: scaleX(1.2);
 }
-
+nav .fa{
+    display: none;
+}
 /* ...respo... */
 
 @media(max-width:700px){
@@ -76,5 +78,10 @@ nav ul li :hover::after{
     }
     .fa{
         color: white;
+    }
+
+    /* .....so important following..... */
+    body{
+        overflow-x: hidden;
     }
 }

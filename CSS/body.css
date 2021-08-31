@@ -1,0 +1,188 @@
+
+/* .........text section....... */
+.text{
+    width: 100%;
+    position: relative;
+    color: #fff;
+    transform: translate(-50% ,-50%);
+    top: 35%;
+    left: 50%;
+    text-align: center;
+}
+.text h1{
+    font-size: 60px;
+    padding: 15px;
+}
+
+.text p{
+    font-size: 15px;
+    margin: 0px 8px 20px 0px;
+}
+.fir{
+    background: transparent;
+    font-size: 13px;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.fir:hover{
+    background-color: red;
+    border: 1px solid red;
+}
+.fir:active{
+    font-size: 100%;
+}
+
+/* ...respo text.... */
+
+@media(max-width: 700px){
+    .text h1{
+        font-size: 30px;
+    }
+    
+    .text p{
+        font-size: 13px;
+    }
+}
+
+/* .......under section..... */
+.under{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 60px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+}
+.u{
+    box-sizing: border-box;
+    border: 1px solid red;
+    flex-basis: 30%;
+    background-color: #fff3f3;
+    padding: 30px;
+    margin-bottom: 5%;
+    transition: 0.5s; 
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.u:hover{
+    box-shadow: 2px 6px 20px 0px rgba(20,0,0,0.6);
+}
+
+/* ....respo under... */
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+/* ......campus section......... */
+.campus{
+    text-align: center;
+    width: 80%;
+    padding-top: 50px;
+    margin: auto;
+}
+.c{
+    flex-basis: 32%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;  
+}
+.c img{
+    width: 100%;
+}
+.cc{
+    position: absolute;
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    top: 15px;
+    transition: 0.5s;
+}
+.cc:hover{
+    background-color: #f0cccc;
+}
+.cc h3{
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    opacity: 0;
+    bottom: 0;
+    position: absolute;
+}
+.cc:hover h3{
+    opacity: 1;
+    bottom: 50%;
+}
+
+
+/* ......student section.......... */
+.student{
+    width: 80%;
+    margin: auto;
+    padding-top: 8px;
+}
+.ti{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.nm{
+    margin-bottom: 20px;
+    margin-top: 14px;
+} 
+.stu{
+    display: flex;
+}
+.stu1{
+    flex-basis: 62%;
+    text-align: left;
+    background-color: #fff3f3;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: left;
+    margin-bottom: 5%;
+    display: flex;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.stu1 img{
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.stu1:hover{
+    box-shadow: 2px 6px 20px 0px rgba(20,0,0,0.6);
+}
+.stu1 .fa{
+    color: salmon;
+    margin-right: 1px;
+}
+
+/* .....student section respoo...... */
+@media(max-width: 700px){
+
+    .stu{
+        flex-direction: column;
+    }
+}
+

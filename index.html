@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="foot.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="home">
+      <nav class="first">
+        <img src="img/logo.png" alt="Logo" />
+        <div class="navlist" id="navList">
+          <i class="fa fa-times-circle" onclick="hide()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="show()"></i>
+      </nav>
+      <div class="text">
+        <h1>Welcome To The Site</h1>
+        <p>
+          Here you will get to know about our different college aspects. We will
+          provide you at most how much data we have.
+        </p>
+        <button class="fir">View For More</button>
+      </div>
+    </section>
+
+    <section class="under">
+      <h2>Welcome To Degree</h2>
+      <div class="row">
+        <div class="u">
+          <h3>High School</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            provident doloremque odit libero dignissimos quidem, est quia
+            excepturi voluptatem molestias!
+          </p>
+        </div>
+        <div class="u">
+          <h3>Under Graduate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            provident doloremque odit libero dignissimos quidem, est quia
+            excepturi voluptatem molestias!
+          </p>
+        </div>
+        <div class="u">
+          <h3>Post Graduate</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            provident doloremque odit libero dignissimos quidem, est quia
+            excepturi voluptatem molestias!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="campus">
+      <h2>Welcome To Our Campuses</h2>
+      <div class="row">
+        <div class="c">
+          <img src="img/london.png" alt="" />
+          <div class="cc">
+            <h3>London</h3>
+          </div>
+        </div>
+        <div class="c">
+          <img src="img/newyork.png" alt="" />
+          <div class="cc">
+            <h3>London</h3>
+          </div>
+        </div>
+        <div class="c">
+          <img src="img/washington.png" alt="" />
+          <div class="cc">
+            <h3>London</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="student">
+      <h3 class="ti">What Our Student Says</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis,
+        laborum.
+      </p>
+      <div class="stu">
+        <div class="stu1">
+          <img src="img/user1.jpg" alt="" />
+          <div style="margin-left: 24px; margin-top: 10px; margin-bottom: 15px;">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+              necessitatibus reprehenderit quaerat sed natus? Optio?
+            </p>
+            <h1 class="nm">Chris Dwan</h1>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+        <div class="stu1">
+          <img src="img/user2.jpg" alt="" />
+          <div style="margin-left: 24px; margin-top: 10px; margin-bottom: 15px;">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+              necessitatibus reprehenderit quaerat sed natus? Optio?
+            </p>
+            <h1 class="nm">David Bin</h1>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="foot">
+        <h1>Enroll To Our Various Online Courses</h1>
+        <button class="fir">Contact US</button>
+    </section>
+
+    <section class="footer">
+        <h4>About Us@copyright &copy;</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure reiciendis cumque numquam!</p>
+        <div class="fooic">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </section>
+    
+    
+    <!-- ................. -->
+    <script>
+      var navList = document.getElementById("navList");
+      function show() {
+        navList.style.right = "0";
+      }
+      function hide() {
+        navList.style.right = "-175px";
+      }
+    </script>
+  </body>
+</html>

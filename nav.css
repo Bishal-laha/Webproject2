@@ -76,7 +76,8 @@ nav .fa{
     nav ul li{
         display: block;
     }
-    .fa{
+    nav .fa{
+        display: block;
         color: white;
     }
 

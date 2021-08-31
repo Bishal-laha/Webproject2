@@ -77,7 +77,7 @@ nav .fa{
         display: block;
     }
     nav .fa{
-        display: block;
+        display: inline-block;
         color: white;
     }
 
